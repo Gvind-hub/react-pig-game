@@ -4,7 +4,7 @@ import Card from "./components/Player/Card";
 
 function App() {
     return (
-        <body>
+        <div className="app-wrapper">
         <div className="game">
             <button className="game__btn-new">
                 <ion-icon name="add-circle-outline"/>
@@ -28,7 +28,7 @@ function App() {
             </button>
             <input type="number" className="game__top-score"/>
         </div>
-        </body>
+        </div>
     );
 }
 
