@@ -1,0 +1,134 @@
+* {
+  font-family: 'Lato', -apple-system, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)),
+  url("./assets/img/back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+}
+
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 1000px;
+  height: 600px;
+  background-color: #fff;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  display: flex;
+
+  &__left, &__right {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+
+    background-color: #f7f7f7;
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+  }
+
+  &__btn-new {
+    margin-top: 45px;
+  }
+
+  &__btn-roll {
+    margin-top: 400px;
+  }
+
+  &__btn-hold {
+    margin-top: 470px;
+  }
+
+  &__top-score {
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 10px;
+    margin-top: 520px;
+
+    font-size: 18px;
+    text-align: center;
+
+  }
+
+  img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1)
+  }
+
+  &__dice-1 {
+    margin-top: 120px;
+  }
+
+  &__dice-2 {
+    margin-top: 250px;
+  }
+
+  button {
+    text-transform: uppercase;
+    font-size: 20px;
+
+    cursor: pointer;
+
+    border: none;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &:hover {
+      font-weight: 600;
+
+      ion-icon {
+        margin-right: 20px
+      }
+    }
+  }
+
+  ion-icon {
+    color: #eb4d4d;
+    font-size: 32px;
+    --ionicon-stroke-width: 16px;
+
+    margin-right: 10px;
+    transition: margin 0.3s ease-in-out;
+  }
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
