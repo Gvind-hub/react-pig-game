@@ -41,9 +41,18 @@
     display: flex;
     justify-content: center;
 
+    width: 50%;
+
+  }
+
+  &__left.active {
     background-color: #f7f7f7;
     border-radius: 10px 0 0 10px;
-    width: 50%;
+  }
+
+  &__right.active {
+    background-color: #f7f7f7;
+    border-radius: 0 10px 10px 0;
   }
 
   &__btn-new {
