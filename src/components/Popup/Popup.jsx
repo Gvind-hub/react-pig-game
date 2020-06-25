@@ -1,10 +1,10 @@
 import React from 'react';
 import cn from 'classnames';
 
-import './PlayerChangePop.scss';
+import './Popup.scss';
 
 
-const PlayerChangePop = ({setVisiblePopup, popupText, visible}) => {
+const Popup = ({setVisiblePopup, popupText, visible}) => {
 
     const closePopup = () => {
         setVisiblePopup(false)
@@ -18,4 +18,4 @@ const PlayerChangePop = ({setVisiblePopup, popupText, visible}) => {
     );
 };
 
-export default PlayerChangePop;
+export default Popup;

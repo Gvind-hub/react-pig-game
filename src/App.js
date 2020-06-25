@@ -1,8 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import Card from './components/Card/Card';
 import {diceImg} from "./components/Utils/Utils";
 import cn from 'classnames';
-import PlayerChangePop from "./components/PlayerChangePop/PlayerChangePop";
+import Popup from "./components/Popup/Popup";
+
 
 function App() {
     const [dice_1, setDice_1] = useState('');
@@ -39,7 +40,7 @@ function App() {
             setCurrentScore(0);
             activePlayer === 1 ? setActivePlayer(2) : setActivePlayer(1);
             setVisiblePopup(true);
-            setPopupText("You got 1. Next Player\'s turn!");
+            setPopupText("You got 1. Next Player's turn!");
             return
         }
         setCurrentScore(throw_1 + throw_2 + currentScore);
@@ -62,10 +63,10 @@ function App() {
         setCurrentScore(0);
     };
 
-    useEffect(() =>{
+    useEffect(() => {
         score_1 >= topScore && onWin('player 1');
         score_2 >= topScore && onWin('player 2');
-    }, [score_1, score_2, topScore]);
+    });
 
     return (
         <div className="app-wrapper">
@@ -94,8 +95,7 @@ function App() {
                 </button>
                 <input type="number" className="game__top-score" placeholder="SET SCORE"
                        onChange={e => setTopScore(e.target.value)} disabled={dice_1}/>
-                <PlayerChangePop setVisiblePopup={setVisiblePopup} popupText={popupText} visible={visiblePopup}/>
-
+                <Popup setVisiblePopup={setVisiblePopup} popupText={popupText} visible={visiblePopup}/>
             </div>
         </div>
     );
