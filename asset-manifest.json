@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-pig-game/static/css/main.e6b0c916.chunk.css",
+    "main.js": "/react-pig-game/static/js/main.1ae0d93b.chunk.js",
+    "main.js.map": "/react-pig-game/static/js/main.1ae0d93b.chunk.js.map",
+    "runtime-main.js": "/react-pig-game/static/js/runtime-main.2e25cc88.js",
+    "runtime-main.js.map": "/react-pig-game/static/js/runtime-main.2e25cc88.js.map",
+    "static/js/2.54322a01.chunk.js": "/react-pig-game/static/js/2.54322a01.chunk.js",
+    "static/js/2.54322a01.chunk.js.map": "/react-pig-game/static/js/2.54322a01.chunk.js.map",
+    "index.html": "/react-pig-game/index.html",
+    "precache-manifest.83cd8fbd4d1652ccbfae08f6a68dc1d1.js": "/react-pig-game/precache-manifest.83cd8fbd4d1652ccbfae08f6a68dc1d1.js",
+    "service-worker.js": "/react-pig-game/service-worker.js",
+    "static/css/main.e6b0c916.chunk.css.map": "/react-pig-game/static/css/main.e6b0c916.chunk.css.map",
+    "static/js/2.54322a01.chunk.js.LICENSE.txt": "/react-pig-game/static/js/2.54322a01.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/react-pig-game/static/media/back.d0402957.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e25cc88.js",
+    "static/js/2.54322a01.chunk.js",
+    "static/css/main.e6b0c916.chunk.css",
+    "static/js/main.1ae0d93b.chunk.js"
+  ]
+}
