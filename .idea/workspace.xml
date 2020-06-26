@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="17ab1b96-5de4-4fac-b143-10a500b640b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayerChangePop/PlayerChangePop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/Popup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayerChangePop/PlayerChangePop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/Popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
@@ -65,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592926476765</updated>
-      <workItem from="1592926479485" duration="48461000" />
+      <workItem from="1592926479485" duration="49383000" />
+      <workItem from="1593181087788" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="finished layout">
       <created>1592944358334</created>
@@ -102,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593022775454</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="minor refactor">
+      <created>1593101906932</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593101906932</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +122,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -125,6 +136,7 @@
     <MESSAGE value="dices are functional" />
     <MESSAGE value="the game logic's been implemented" />
     <MESSAGE value="player's name input decorated" />
-    <option name="LAST_COMMIT_MESSAGE" value="player's name input decorated" />
+    <MESSAGE value="minor refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor refactor" />
   </component>
 </project>

@@ -11,7 +11,7 @@ const Card = ({currentScore, score, active, playerName, setPlayerName}) => {
         setPlayerName(e.target.value)
     };
     const inputSubmit = () => {
-        const noName = 'enter player\'s name'
+        const noName = 'enter player\'s name';
         if (playerName && playerName !== noName) {
             setToggleInput(false)
         } else {

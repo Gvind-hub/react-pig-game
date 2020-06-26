@@ -47,10 +47,10 @@ function App() {
     };
 
     const onWin = (player) => {
-        gameInit();
         setVisiblePopup(true);
         setPopupText(`${player} wins!`)
-    }
+        gameInit();
+    };
 
     const onHold = () => {
         if (activePlayer === 1) {
@@ -64,9 +64,13 @@ function App() {
     };
 
     useEffect(() => {
-        score_1 >= topScore && onWin('player 1');
-        score_2 >= topScore && onWin('player 2');
+        score_1 >= topScore && topScore > 0 && onWin(playerName_1);
+        score_2 >= topScore && topScore > 0 && onWin(playerName_2);
     });
+
+    const onTopScoreChange = e => {
+        setTopScore(e.target.value)
+    };
 
     return (
         <div className="app-wrapper">
@@ -85,7 +89,7 @@ function App() {
                 </div>
                 {dice_1 && <img src={diceImg(dice_1)} alt="dice" className="game__dice-1"/>}
                 {dice_2 && <img src={diceImg(dice_2)} alt="dice" className="game__dice-2"/>}
-                <button className="game__btn-roll" onClick={throwDice} disabled={visiblePopup}>
+                <button className="game__btn-roll" onClick={throwDice} disabled={visiblePopup || !topScore}>
                     <ion-icon name="reload-outline"/>
                     <span>roll dice</span>
                 </button>
@@ -94,7 +98,7 @@ function App() {
                     <span>hold</span>
                 </button>
                 <input type="number" className="game__top-score" placeholder="SET SCORE"
-                       onChange={e => setTopScore(e.target.value)} disabled={dice_1}/>
+                       onChange={onTopScoreChange} disabled={dice_1}/>
                 <Popup setVisiblePopup={setVisiblePopup} popupText={popupText} visible={visiblePopup}/>
             </div>
         </div>
