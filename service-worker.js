@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-pig-game/precache-manifest.83cd8fbd4d1652ccbfae08f6a68dc1d1.js"
+  "/react-pig-game/precache-manifest.01076b1e6c1b24e6aba9ebeb73135b65.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54549d8eb7fd43ef93e8a2302cd5c1a3",
+    "revision": "0aa0182743fbc7c7e10ceed580e295bc",
     "url": "/react-pig-game/index.html"
   },
   {
-    "revision": "6f6e4c77ce68bedc6584",
+    "revision": "57ecbf43291b0d30cd4b",
     "url": "/react-pig-game/static/css/main.e6b0c916.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-pig-game/static/js/2.54322a01.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f6e4c77ce68bedc6584",
-    "url": "/react-pig-game/static/js/main.1ae0d93b.chunk.js"
+    "revision": "57ecbf43291b0d30cd4b",
+    "url": "/react-pig-game/static/js/main.06d8c1a2.chunk.js"
   },
   {
     "revision": "fe78254cf1c4d2ad03d8",
